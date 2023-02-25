@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header { /*barra, portal de noticias*/
+    background-color: rgb(37, 36, 36);
+    padding: 16px 0;
+    color:rgb(210, 207, 207);
+}
+header .container{/*letra barra economia e tecnologia*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header li {/*barra economia e tecnologia*/
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a{ /*barra tecnologia economia*/
+    color: rgb(210, 207, 207);
+    text-decoration: none;
+
+    
+}
+.container{/*distrubuição de tamanho e local imagem*/
+    width: 1100px;
+    margin: 0 auto 0 auto;
+}
+.articles{/*imagem e texto*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.articles article img{/*imagem acompanha size texto*/
+    /*height:180;*/
+    width: 100%;
+}
+.articles article{
+    width: 43%;
+}
+section{
+    padding: 16px 0;
+}
+section h2, .articles article
+{
+    margin-bottom:10px ;
+}
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article a {/*ler mais*/
+    background-color:orange ;
+    color: #fff;
+    padding: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3{
+    font-size: 24px;
+}
+section h2{ /*tamanho letra economia e tecnologia*/
+    font-size: 32px;
+}
+
+#economia h2{
+    background-color: #FFD700;
+    padding: 16px 2;
+    color: rgb(253, 253, 253);
+    
+}
+
+
+#tech h2{
+    background-color: #211541;
+    padding: 16px 2;
+    color: rgb(210, 207, 207);
+}
+
+#entreter h2{
+    background-color:#FF8C00;
+    padding: 16px 2;
+    color: rgb(255, 255, 255);
+}
+
+#policy h2{
+    background-color: 	#FF4500;
+    padding: 16px 2;
+    color: rgb(235, 231, 231);
+}
+
+
+body {
+    background-color: rgb(248, 246, 246);
+}
+
+.creation-date{
+    color: #ccc;
+}
